@@ -1,0 +1,2 @@
+model_checkpoint_path: "DigitIdentifierKerasModel.chkp"
+all_model_checkpoint_paths: "DigitIdentifierKerasModel.chkp"

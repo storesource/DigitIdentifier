@@ -51,7 +51,6 @@ def build_model():
 
     model.add(Flatten())
     model.add(Dense(1024, activation='relu'))
-    model.add(Dropout(0.5))
     model.add(Dense(10, activation='softmax'))
     return model
 
@@ -69,6 +68,7 @@ def train(model, x_train, y_train, x_test, y_test):
 
 
 def export_model(saver, model, input_node_names, output_node_name):
+
     tf.train.write_graph(K.get_session().graph_def, 'out', \
         MODEL_NAME + '_graph.pbtxt')
 

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Guess My Number</string>
+    <string name="ClearButton_text">Clear Screen</string>
+    <string name="DetectButton_text">Guess my number</string>
+    <string name="Result_text">Your guessed number will be here!</string>
+</resources>
